@@ -23,11 +23,11 @@ print("Thank you! You are born in " + year_of_birth + " .")
 
 print("-------------------------------------------------------------------")
 
-x = 0
-while x < 5:
+x = 5
+while x > -1:
     print(x)
-    x += 1
-    time.sleep(0.5)
+    x -= 1
+    time.sleep(1)
 
 print("-------------------------------------------------------------------")
 
@@ -75,6 +75,8 @@ elif number_of_numbers == 2:
         result = number_1 * number_2
     elif operator == 4:
         result = number_1 / number_2
+    else:
+        print("Invalid input for an operator.")
     print("The result is " + str(result) + ".")
 
 elif number_of_numbers == 3:
@@ -95,6 +97,11 @@ elif number_of_numbers == 3:
         result = number_1 * number_2 * number_3
     elif operator == 4:
         result = number_1 / number_2 / number_3
+    else:
+        print("Invalid input for an operator.")
     print("The result is " + str(result) + ".")
+
+else:
+    print("Too many or too few numbers or incorrect input.")
 
 print("***Closing this window means deleting the entered data.***")

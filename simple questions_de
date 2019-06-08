@@ -1,0 +1,107 @@
+#*# coding: utf-8 #*#
+
+import time
+
+print("Vorab: Dieses Skript ist vollständig GDPR/DSGVO-konform und speichert keinerlei eingegebene Daten! ;-)")
+time.sleep(3)
+
+print("Gib Deinen Namen ein:")
+name = input()
+print("Hallo " + name + "!")
+
+print("-------------------------------------------------------------------")
+
+print("Wie alt bist Du?")
+age = input()
+print("O.K., Du bist " + age + " Jahre alt.")
+
+print("-------------------------------------------------------------------")
+
+print("In welchem Jahr bist Du geboren?")
+year_of_birth = input()
+print("Danke! Du bist im Jahr " + year_of_birth + " geboren.")
+
+print("-------------------------------------------------------------------")
+
+x = 5
+while x > -1:
+    print(x)
+    x -= 1
+    time.sleep(1)
+
+print("-------------------------------------------------------------------")
+
+print("Hier siehst Du den 'Epoch', also den Zeitpunkt, an dem die Zeitrechnung dieses Computers beginnt:")
+print(time.gmtime(0))
+time.sleep(4)
+
+print("-------------------------------------------------------------------")
+
+print("Hier siehst Du die Zeit (in Sekunden), die seit dem 'Epoch' vergangen ist:")
+print(time.time())
+time.sleep(4)
+
+print("-------------------------------------------------------------------")
+
+print("Tschau, " + name + "!")
+
+print("-------------------------------------------------------------------")
+
+print("Ein kleiner Taschenrechner")
+print("Disclaimer: Dieser Taschenrechner rechnet nur mit +, -, * und /.")
+
+print("Mit wie vielen Zahlen soll gerechnet werden? (1-3)")
+number_of_numbers = int(input())
+
+if number_of_numbers == 1:
+    number_1 = int(input("Gib die Zahl ein: "))
+    result = number_1
+    print("Das Ergebnis ist " + str(result) + ".")
+
+elif number_of_numbers == 2:
+    number_1 = int(input("Gib die erste Zahl ein: "))
+    number_2 = int(input("Gib die zweite Zahl ein: "))
+    print("Welchen Operator willst Du benutzen?")
+    print("1: +")
+    print("2: -")
+    print("3: *")
+    print("4: /")
+    operator = int(input())
+    if operator == 1:
+        result = number_1 + number_2
+    elif operator == 2:
+        result = number_1 - number_2
+    elif operator == 3:
+        result = number_1 * number_2
+    elif operator == 4:
+        result = number_1 / number_2
+    else:
+        print("Ungültige Eingabe für einen Operator.")
+    print("Das Ergebnis ist " + str(result) + ".")
+
+elif number_of_numbers == 3:
+    number_1 = int(input("Gib die erste Zahl ein: "))
+    number_2 = int(input("Gib die zweite Zahl ein: "))
+    number_3 = int(input("Gib die dritte Zahl ein: "))
+    print("Welchen Operator willst Du benutzen?")
+    print("1: +")
+    print("2: -")
+    print("3: *")
+    print("4: /")
+    operator = int(input())
+    if operator == 1:
+        result = number_1 + number_2 + number_3
+    elif operator == 2:
+        result = number_1 - number_2 - number_3
+    elif operator == 3:
+        result = number_1 * number_2 * number_3
+    elif operator == 4:
+        result = number_1 / number_2 / number_3
+    else:
+        print("Ungültige Eingabe für einen Operator.")
+    print("Das Ergebnis ist " + str(result) + ".")
+
+else:
+    print("Zu viele oder zu wenige Zahlen oder fehlerhafte Eingabe.")
+
+print("***Beim Schließen dieses Fensters werden alle eingegebenen Daten gelöscht.***")
