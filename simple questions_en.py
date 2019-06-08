@@ -44,4 +44,43 @@ time.sleep(4)
 print("-------------------------------------------------------------------")
 
 print("Bye, " + name + "!")
+
+print("-------------------------------------------------------------------")
+
+print("A little calculator")
+print("Disclaimer: This calculator only does +, -, * and / operations.")
+
+print("How many numbers to operate with? (1-3)")
+number_of_numbers = int(input())
+
+if number_of_numbers == 1:
+    number_1 = int(input("Enter the number: "))
+    int(result) = number_1
+    print("The result is " + result)
+
+elif number_of_numbers == 2:
+    number_1 = int(input("Enter the first number: "))
+    number_2 = int(input("Enter the second number: "))
+    print("Which operator do you want to use?")
+    print("1: +")
+    print("2: -")
+    print("3: *")
+    print("4: /")
+    operator = input()
+    int(result) = number_1 + operator + number_2
+    print("The result is " + result)
+
+elif number_of_numbers == 3:
+    number_1 = int(input("Enter the first number: "))
+    number_2 = int(input("Enter the second number: "))
+    number_3 = int(input("Enter the third number: "))
+    print("Which operator do you want to use?")
+    print("1: +")
+    print("2: -")
+    print("3: *")
+    print("4: /")
+    operator = input()
+    int(result) = number_1 + operator + number_2 + operator + number_3
+    print("The result is " + result)
+
 print("***Closing this windows means deleting the entered data.***")
