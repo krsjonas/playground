@@ -55,8 +55,8 @@ number_of_numbers = int(input())
 
 if number_of_numbers == 1:
     number_1 = int(input("Enter the number: "))
-    int(result) = number_1
-    print("The result is " + result)
+    result = number_1
+    print("The result is " + str(result) + ".")
 
 elif number_of_numbers == 2:
     number_1 = int(input("Enter the first number: "))
@@ -66,9 +66,16 @@ elif number_of_numbers == 2:
     print("2: -")
     print("3: *")
     print("4: /")
-    operator = input()
-    int(result) = number_1 + operator + number_2
-    print("The result is " + result)
+    operator = int(input())
+    if operator == 1:
+        result = number_1 + number_2
+    elif operator == 2:
+        result = number_1 - number_2
+    elif operator == 3:
+        result = number_1 * number_2
+    elif operator == 4:
+        result = number_1 / number_2
+    print("The result is " + str(result) + ".")
 
 elif number_of_numbers == 3:
     number_1 = int(input("Enter the first number: "))
@@ -79,8 +86,15 @@ elif number_of_numbers == 3:
     print("2: -")
     print("3: *")
     print("4: /")
-    operator = input()
-    int(result) = number_1 + operator + number_2 + operator + number_3
-    print("The result is " + result)
+    operator = int(input())
+    if operator == 1:
+        result = number_1 + number_2 + number_3
+    elif operator == 2:
+        result = number_1 - number_2 - number_3
+    elif operator == 3:
+        result = number_1 * number_2 * number_3
+    elif operator == 4:
+        result = number_1 / number_2 / number_3
+    print("The result is " + str(result) + ".")
 
-print("***Closing this windows means deleting the entered data.***")
+print("***Closing this window means deleting the entered data.***")
