@@ -1,4 +1,4 @@
-#*# coding: utf-8 #*#
+# -*- coding: utf-8 -*-
 
 import time
 
@@ -51,16 +51,16 @@ print("A little calculator")
 print("Disclaimer: This calculator only does +, -, * and / operations.")
 
 print("How many numbers to operate with? (1-5)")
-number_of_numbers = int(input())
+num_of_numbers = int(input())
 
-if number_of_numbers == 1:
-    number_1 = int(input("Enter the number: "))
-    result = number_1
+if num_of_numbers == 1:
+    num1 = int(input("Enter the number: "))
+    result = num1
     print("The result is " + str(result) + ".")
 
-elif number_of_numbers == 2:
-    number_1 = int(input("Enter the first number: "))
-    number_2 = int(input("Enter the second number: "))
+elif num_of_numbers == 2:
+    num1 = int(input("Enter the first number: "))
+    num2 = int(input("Enter the second number: "))
     print("Which operator do you want to use?")
     print("1: +")
     print("2: -")
@@ -68,21 +68,21 @@ elif number_of_numbers == 2:
     print("4: /")
     operator = int(input())
     if operator == 1:
-        result = number_1 + number_2
+        result = num1 + num2
     elif operator == 2:
-        result = number_1 - number_2
+        result = num1 - num2
     elif operator == 3:
-        result = number_1 * number_2
+        result = num1 * num2
     elif operator == 4:
-        result = number_1 / number_2
+        result = num1 / num2
     else:
         print("Invalid input for an operator.")
     print("The result is " + str(result) + ".")
 
-elif number_of_numbers == 3:
-    number_1 = int(input("Enter the first number: "))
-    number_2 = int(input("Enter the second number: "))
-    number_3 = int(input("Enter the third number: "))
+elif num_of_numbers == 3:
+    num1 = int(input("Enter the first number: "))
+    num2 = int(input("Enter the second number: "))
+    num3 = int(input("Enter the third number: "))
     print("Which operator do you want to use?")
     print("1: +")
     print("2: -")
@@ -90,22 +90,22 @@ elif number_of_numbers == 3:
     print("4: /")
     operator = int(input())
     if operator == 1:
-        result = number_1 + number_2 + number_3
+        result = num1 + num2 + num3
     elif operator == 2:
-        result = number_1 - number_2 - number_3
+        result = num1 - num2 - num3
     elif operator == 3:
-        result = number_1 * number_2 * number_3
+        result = num1 * num2 * num3
     elif operator == 4:
-        result = number_1 / number_2 / number_3
+        result = num1 / num2 / num3
     else:
         print("Invalid input for an operator.")
     print("The result is " + str(result) + ".")
 
-elif number_of_numbers == 4:
-    number_1 = int(input("Enter the first number: "))
-    number_2 = int(input("Enter the second number: "))
-    number_3 = int(input("Enter the third number: "))
-    number_4 = int(input("Enter the fourth number: "))
+elif num_of_numbers == 4:
+    num1 = int(input("Enter the first number: "))
+    num2 = int(input("Enter the second number: "))
+    num3 = int(input("Enter the third number: "))
+    num4 = int(input("Enter the fourth number: "))
     print("Which operator do you want to use?")
     print("1: +")
     print("2: -")
@@ -113,23 +113,23 @@ elif number_of_numbers == 4:
     print("4: /")
     operator = int(input())
     if operator == 1:
-        result = number_1 + number_2 + number_3 + number_4
+        result = num1 + num2 + num3 + num4
     elif operator == 2:
-        result = number_1 - number_2 - number_3 - number_4
+        result = num1 - num2 - num3 - num4
     elif operator == 3:
-        result = number_1 * number_2 * number_3 * number_4
+        result = num1 * num2 * num3 * num4
     elif operator == 4:
-        result = number_1 / number_2 / number_3 / number_4
+        result = num1 / num2 / num3 / num4
     else:
         print("Invalid input for an operator.")
     print("The result is " + str(result) + ".")
 
-elif number_of_numbers == 5:
-    number_1 = int(input("Enter the first number: "))
-    number_2 = int(input("Enter the second number: "))
-    number_3 = int(input("Enter the third number: "))
-    number_4 = int(input("Enter the fourth number: "))
-    number_5 = int(input("Enter the fifth number: "))
+elif num_of_numbers == 5:
+    num1 = int(input("Enter the first number: "))
+    num2 = int(input("Enter the second number: "))
+    num3 = int(input("Enter the third number: "))
+    num4 = int(input("Enter the fourth number: "))
+    num5 = int(input("Enter the fifth number: "))
     print("Which operator do you want to use?")
     print("1: +")
     print("2: -")
@@ -137,13 +137,13 @@ elif number_of_numbers == 5:
     print("4: /")
     operator = int(input())
     if operator == 1:
-        result = number_1 + number_2 + number_3 + number_4 + number_5
+        result = num1 + num2 + num3 + num4 + num5
     elif operator == 2:
-        result = number_1 - number_2 - number_3 - number_4 - number_5
+        result = num1 - num2 - num3 - num4 - num5
     elif operator == 3:
-        result = number_1 * number_2 * number_3 * number_4 * number_5
+        result = num1 * num2 * num3 * num4 * num5
     elif operator == 4:
-        result = number_1 / number_2 / number_3 / number_4 / number_5
+        result = num1 / num2 / num3 / num4 / num5
     else:
         print("Invalid input for an operator.")
     print("The result is " + str(result) + ".")
