@@ -50,7 +50,7 @@ print("-------------------------------------------------------------------")
 print("Ein kleiner Taschenrechner")
 print("Disclaimer: Dieser Taschenrechner rechnet nur mit +, -, * und /.")
 
-print("Mit wie vielen Zahlen soll gerechnet werden? (1-3)")
+print("Mit wie vielen Zahlen soll gerechnet werden? (1-5)")
 number_of_numbers = int(input())
 
 if number_of_numbers == 1:
@@ -97,6 +97,53 @@ elif number_of_numbers == 3:
         result = number_1 * number_2 * number_3
     elif operator == 4:
         result = number_1 / number_2 / number_3
+    else:
+        print("Ungültige Eingabe für einen Operator.")
+    print("Das Ergebnis ist " + str(result) + ".")
+
+elif number_of_numbers == 4:
+    number_1 = int(input("Gib die erste Zahl ein: "))
+    number_2 = int(input("Gib die zweite Zahl ein: "))
+    number_3 = int(input("Gib die dritte Zahl ein: "))
+    number_4 = int(input("Gib die vierte Zahl ein: "))
+    print("Welchen Operator willst Du benutzen?")
+    print("1: +")
+    print("2: -")
+    print("3: *")
+    print("4: /")
+    operator = int(input())
+    if operator == 1:
+        result = number_1 + number_2 + number_3 + number_4
+    elif operator == 2:
+        result = number_1 - number_2 - number_3 - number_4
+    elif operator == 3:
+        result = number_1 * number_2 * number_3 * number_4
+    elif operator == 4:
+        result = number_1 / number_2 / number_3 / number_4
+    else:
+        print("Ungültige Eingabe für einen Operator.")
+    print("Das Ergebnis ist " + str(result) + ".")
+
+elif number_of_numbers == 5:
+    number_1 = int(input("Gib die erste Zahl ein: "))
+    number_2 = int(input("Gib die zweite Zahl ein: "))
+    number_3 = int(input("Gib die dritte Zahl ein: "))
+    number_4 = int(input("Gib die vierte Zahl ein: "))
+    number_5 = int(input("Gib die fünfte Zahl ein: "))
+    print("Welchen Operator willst Du benutzen?")
+    print("1: +")
+    print("2: -")
+    print("3: *")
+    print("4: /")
+    operator = int(input())
+    if operator == 1:
+        result = number_1 + number_2 + number_3 + number_4 + number_5
+    elif operator == 2:
+        result = number_1 - number_2 - number_3 - number_4 - number_5
+    elif operator == 3:
+        result = number_1 * number_2 * number_3 * number_4 * number_5
+    elif operator == 4:
+        result = number_1 / number_2 / number_3 / number_4 / number_5
     else:
         print("Ungültige Eingabe für einen Operator.")
     print("Das Ergebnis ist " + str(result) + ".")
