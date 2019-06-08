@@ -2,24 +2,24 @@
 
 import time
 
-print("Vorab: Dieses Skript ist vollständig DSGVO-konform und speichert keinerlei eingegebene Daten! ;-)")
+print("In advance: This script is fully GDPR/DSGVO compliant and does not store any input data! ;-)")
 time.sleep(3)
 
-print("Gib Deinen Namen ein:")
+print("Enter your name:")
 name = input()
-print("Hallo " + name + "!")
+print("Hello " + name + "!")
 
 print("-------------------------------------------------------------------")
 
-print("Wie alt bist Du?")
+print("How old are you?")
 age = input()
-print("O.K., Du bist " + age + " Jahre alt.")
+print("O.K., you are " + age + " years old.")
 
 print("-------------------------------------------------------------------")
 
-print("In welchem Jahr bist Du geboren?")
+print("What year are you born in?")
 year_of_birth = input()
-print("Vielen Dank! Du bist im Jahr " + year_of_birth + " geboren.")
+print("Thank you! You are born in " + year_of_birth + " .")
 
 print("-------------------------------------------------------------------")
 
@@ -31,16 +31,17 @@ while x < 5:
 
 print("-------------------------------------------------------------------")
 
-print("Hier siehst Du den 'Epoch', also den Zeitpunkt, an dem die Zeitrechnung dieses Computers beginnt:")
+print("Here you can see the 'epoch', the moment, at which the time of this computer begins:")
 print(time.gmtime(0))
 time.sleep(4)
 
 print("-------------------------------------------------------------------")
 
-print("Hier siehst Du die Zeit (in Sekunden), die seit dem 'Epoch' vergangen ist")
+print("Here you can see the time (in seconds), that has passed since the 'epoch':")
 print(time.time())
 time.sleep(4)
 
 print("-------------------------------------------------------------------")
 
-print("Servus, " + name + "!")
+print("Bye, " + name + "!")
+print("***Closing this windows means deleting the entered data.***")
