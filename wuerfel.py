@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# locale: de-de
+# locale: de-DE
 
 import pygame, sys, random
 from pygame.locals import *
