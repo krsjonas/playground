@@ -50,7 +50,7 @@ print("-------------------------------------------------------------------")
 print("A little calculator")
 print("Disclaimer: This calculator only does +, -, * and / operations.")
 
-print("How many numbers to operate with? (1-5)")
+print("How many numbers to operate with? (1-9)")
 num_of_numbers = int(input())
 
 if num_of_numbers == 1:
@@ -144,6 +144,112 @@ elif num_of_numbers == 5:
         result = num1 * num2 * num3 * num4 * num5
     elif operator == 4:
         result = num1 / num2 / num3 / num4 / num5
+    else:
+        print("Invalid input for an operator.")
+    print("The result is " + str(result) + ".")
+
+elif num_of_numbers == 6:
+    num1 = int(input("Enter the first number: "))
+    num2 = int(input("Enter the second number: "))
+    num3 = int(input("Enter the third number: "))
+    num4 = int(input("Enter the fourth number: "))
+    num5 = int(input("Enter the fifth number: "))
+    num6 = int(input("Enter the sixth number: "))
+    print("Which operator do you want to use?")
+    print("1: +")
+    print("2: -")
+    print("3: *")
+    print("4: /")
+    operator = int(input())
+    if operator == 1:
+        result = num1 + num2 + num3 + num4 + num5 + num6
+    elif operator == 2:
+        result = num1 - num2 - num3 - num4 - num5 - num6
+    elif operator == 3:
+        result = num1 * num2 * num3 * num4 * num5 * num6
+    elif operator == 4:
+        result = num1 / num2 / num3 / num4 / num5 / num6
+    else:
+        print("Invalid input for an operator.")
+    print("The result is " + str(result) + ".")
+
+elif num_of_numbers == 7:
+    num1 = int(input("Enter the first number: "))
+    num2 = int(input("Enter the second number: "))
+    num3 = int(input("Enter the third number: "))
+    num4 = int(input("Enter the fourth number: "))
+    num5 = int(input("Enter the fifth number: "))
+    num6 = int(input("Enter the sixth number: "))
+    num7 = int(input("Enter the seventh number: "))
+    print("Which operator do you want to use?")
+    print("1: +")
+    print("2: -")
+    print("3: *")
+    print("4: /")
+    operator = int(input())
+    if operator == 1:
+        result = num1 + num2 + num3 + num4 + num5 + num6 + num7
+    elif operator == 2:
+        result = num1 - num2 - num3 - num4 - num5 - num6 - num7
+    elif operator == 3:
+        result = num1 * num2 * num3 * num4 * num5 * num6 * num7
+    elif operator == 4:
+        result = num1 / num2 / num3 / num4 / num5 / num6 / num7
+    else:
+        print("Invalid input for an operator.")
+    print("The result is " + str(result) + ".")
+
+elif num_of_numbers == 8:
+    num1 = int(input("Enter the first number: "))
+    num2 = int(input("Enter the second number: "))
+    num3 = int(input("Enter the third number: "))
+    num4 = int(input("Enter the fourth number: "))
+    num5 = int(input("Enter the fifth number: "))
+    num6 = int(input("Enter the sixth number: "))
+    num7 = int(input("Enter the seventh number: "))
+    num8 = int(input("Enter the eighth number: "))
+    print("Which operator do you want to use?")
+    print("1: +")
+    print("2: -")
+    print("3: *")
+    print("4: /")
+    operator = int(input())
+    if operator == 1:
+        result = num1 + num2 + num3 + num4 + num5 + num6 + num7 + num8
+    elif operator == 2:
+        result = num1 - num2 - num3 - num4 - num5 - num6 - num7 - num8
+    elif operator == 3:
+        result = num1 * num2 * num3 * num4 * num5 * num6 * num7 * num8
+    elif operator == 4:
+        result = num1 / num2 / num3 / num4 / num5 / num6 / num7 / num8
+    else:
+        print("Invalid input for an operator.")
+    print("The result is " + str(result) + ".")
+
+elif num_of_numbers == 9:
+    num1 = int(input("Enter the first number: "))
+    num2 = int(input("Enter the second number: "))
+    num3 = int(input("Enter the third number: "))
+    num4 = int(input("Enter the fourth number: "))
+    num5 = int(input("Enter the fifth number: "))
+    num6 = int(input("Enter the sixth number: "))
+    num7 = int(input("Enter the seventh number: "))
+    num8 = int(input("Enter the eighth number: "))
+    num9 = int(input("Enter the nineth number: "))
+    print("Which operator do you want to use?")
+    print("1: +")
+    print("2: -")
+    print("3: *")
+    print("4: /")
+    operator = int(input())
+    if operator == 1:
+        result = num1 + num2 + num3 + num4 + num5 + num6 + num7 + num8 + num9
+    elif operator == 2:
+        result = num1 - num2 - num3 - num4 - num5 - num6 - num7 - num8 - num9
+    elif operator == 3:
+        result = num1 * num2 * num3 * num4 * num5 * num6 * num7 * num8 * num9
+    elif operator == 4:
+        result = num1 / num2 / num3 / num4 / num5 / num6 / num7 / num8 / num9
     else:
         print("Invalid input for an operator.")
     print("The result is " + str(result) + ".")
