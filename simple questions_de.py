@@ -50,7 +50,7 @@ print("-------------------------------------------------------------------")
 print("Ein kleiner Taschenrechner")
 print("Disclaimer: Dieser Taschenrechner rechnet nur mit +, -, * und /.")
 
-print("Mit wie vielen Zahlen soll gerechnet werden? (1-5)")
+print("Mit wie vielen Zahlen soll gerechnet werden? (1-9)")
 number_of_numbers = int(input())
 
 if number_of_numbers == 1:
@@ -253,7 +253,7 @@ elif number_of_numbers == 9:
     else:
         print("Ungültige Eingabe für einen Operator.")
     print("Das Ergebnis ist " + str(result) + ".")
-     
+
 else:
     print("Zu viele oder zu wenige Zahlen oder fehlerhafte Eingabe.")
 
