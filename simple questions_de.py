@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 
+# locale: de-DE
+
 import time
 
 print("Vorab: Dieses Skript ist vollständig GDPR/DSGVO-konform und speichert keinerlei eingegebene Daten! ;-)")
