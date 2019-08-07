@@ -52,7 +52,7 @@ print("-------------------------------------------------------------------")
 print("A little calculator")
 print("Disclaimer: This calculator only does +, -, * and / operations.")
 
-print("How many numbers to operate with? (1-18)")
+print("How many numbers to operate with? (1-20)")
 num_of_numbers = int(input())
 
 if num_of_numbers == 1:
