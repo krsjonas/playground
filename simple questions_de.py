@@ -52,7 +52,7 @@ print("-------------------------------------------------------------------")
 print("Ein kleiner Taschenrechner")
 print("Disclaimer: Dieser Taschenrechner rechnet nur mit +, -, * und /.")
 
-print("Mit wie vielen Zahlen soll gerechnet werden? (1-9)")
+print("Mit wie vielen Zahlen soll gerechnet werden? (1-10)")
 number_of_numbers = int(input())
 
 if number_of_numbers == 1:
