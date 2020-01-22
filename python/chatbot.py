@@ -14,7 +14,7 @@ while i == 0:
         print("Ich bin Chatty!")
     elif answer == "Wie heißt du?":
         print("Ich bin Chatty!")
-    elif anwer == "Wer bist Du?":
+    elif answer == "Wer bist Du?":
         print("Ich bin Chatty!")
     elif answer == "Wer bist du?":
         print("Ich bin Chatty!")
