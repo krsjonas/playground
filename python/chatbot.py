@@ -14,6 +14,10 @@ while i == 0:
         print("Ich bin Chatty!")
     elif answer == "Wie heißt du?":
         print("Ich bin Chatty!")
+    elif anwer == "Wer bist Du?":
+        print("Ich bin Chatty!")
+    elif answer == "Wer bist du?":
+        print("Ich bin Chatty!")
     elif answer == "Wie alt bist Du?":
         print("Ich wurde im Januar 2020 programmiert, also bin ich noch nicht einmal ein Jahr alt.")
     elif answer == "Wie alt bist du?":
@@ -22,5 +26,7 @@ while i == 0:
         print("Ich als Bot bin nicht real, darum habe ich auch keine Kleidung.")
     elif answer == "Was hast du an?":
         print("Ich als Bot bin nicht real, darum habe ich auch keine Kleidung.")
+    elif answer == "Was ist 2+2?":
+        print("Das Ergebnis ist 4.")  # flexibler gestalten, als eine Art Taschenrechner
     else:
         print("Tut mir leid, ich habe Deine Frage nicht verstanden.")

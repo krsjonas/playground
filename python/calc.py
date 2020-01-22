@@ -4,6 +4,8 @@ print("Disclaimer: This calculator only does +, -, * and / operations.")
 print("How many numbers to operate with? (1-20)")
 num_of_numbers = int(input())
 
+# reminder: put in a while loop
+
 if num_of_numbers == 1:
     num1 = int(input("Enter the number: "))
     result = num1
